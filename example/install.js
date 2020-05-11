@@ -8,7 +8,17 @@ var svc = new Service({
   env:{
     name: "NODE_ENV",
     value: "production"
-  }
+  },
+  resetFailure: "10 secs",
+  onFailure: [
+      {
+        action: "restart",
+        delay: "10 secs"
+      },
+      {
+        action: "restart",
+        delay: "20 secs"
+      }]
 });
 
 // Listen for the "install" event, which indicates the

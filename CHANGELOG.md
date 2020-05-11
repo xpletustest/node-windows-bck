@@ -1,3 +1,11 @@
+## 1.0.2
+- added: support for service recovery config (onFailure & resetFailure)
+  (for specs see JSDoc comments in daemon.js)
+- added: validation for onFailure & resetFailure params (throws when invalid)
+- changed: all throw statements now use: new Error()
+- updated: example code
+- changed: service id no longer has ".exe" suffix appended
+
 ## 1.0.1
 - added DotNetVersions to bin folder
 - added README for DotNetVersions
