@@ -1,3 +1,7 @@
+
+## 1.0.3
+- fixed: start & stop functions still referred to this._exe  instead of this.id
+
 ## 1.0.2
 - added: support for service recovery config (onFailure & resetFailure)
   (for specs see JSDoc comments in daemon.js)
