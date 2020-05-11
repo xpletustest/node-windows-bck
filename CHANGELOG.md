@@ -1,4 +1,7 @@
 
+## 1.0.4
+- added: support for completely unrelated service id (=config.id) and (display-) name (=config.name)
+
 ## 1.0.3
 - fixed: start & stop functions still referred to this._exe  instead of this.id
 
