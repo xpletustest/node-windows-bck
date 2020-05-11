@@ -1,3 +1,8 @@
+## 1.0.5
+- fixed: _id & _name no longer writable
+- fixed: invalid chars are removed from _id
+- removed: name's setter
+- fixed: .exe and .exe.config filenames now preserve casing
 
 ## 1.0.4
 - added: support for completely unrelated service id (=config.id) and (display-) name (=config.name)
