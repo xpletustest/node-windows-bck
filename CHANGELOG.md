@@ -1,3 +1,7 @@
+## 1.0.8
+- fixed: logOnAs was not initialized from config object
+- updated: examples
+
 ## 1.0.7
 - fixed: working directory was not set correctly 
 - updated: example

@@ -20,7 +20,11 @@ var svc = new Service({
             action: "restart",
             delay: "20 secs"
         }],
-    workingDirectory: "C:\\temp"
+    workingDirectory: "C:\\temp",
+    logOnAs: {
+        account: 'LocalSystem',
+        password: ''
+    }
 });
 
 // Listen for the "install" event, which indicates the
