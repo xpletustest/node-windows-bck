@@ -1,3 +1,7 @@
+## 1.0.7
+- fixed: working directory was not set correctly 
+- updated: example
+
 ## 1.0.6
 - fixed: uninstall did not work when installed in non-default folder
 - removed: unused callback from .install
