@@ -99,7 +99,7 @@ svc.on('install',function(){
   svc.start();
 });
 
-svc.install();
+svc.install('C:\\path\\to\\your_service_folder');
 ```
 
 The code above creates a new `Service` object, providing a pretty name and description.
@@ -260,8 +260,8 @@ svc.on('uninstall',function(){
   console.log('The service exists: ',svc.exists);
 });
 
-// Uninstall the service.
-svc.uninstall();
+// Uninstall the service. (use same path as with svc.install)
+svc.uninstall('C:\\path\\to\\your_service_folder');
 ```
 
 The uninstall process only removes process-specific files. **It does NOT delete your Node.js script!**

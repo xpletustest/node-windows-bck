@@ -40,4 +40,4 @@ svc.on('start',function(){
 });
 
 // Install the script as a service.
-svc.install();
+svc.install("c:\\temp");
