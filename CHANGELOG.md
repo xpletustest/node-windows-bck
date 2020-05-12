@@ -1,3 +1,10 @@
+## 1.0.6
+- fixed: uninstall did not work when installed in non-default folder
+- removed: unused callback from .install
+- fixed: invalidinstallation check was incorrect
+- updated: readme
+- updated: examples
+
 ## 1.0.5
 - fixed: _id & _name no longer writable
 - fixed: invalid chars are removed from _id
@@ -19,12 +26,12 @@
 - changed: service id no longer has ".exe" suffix appended
 
 ## 1.0.1
-- added DotNetVersions to bin folder
-- added README for DotNetVersions
-- updated winsw (to v2.9.0 for .NET 4.6.1)
-- fixed example code
-- added README for winsw
-- added this CHANGELOG file
+- added: DotNetVersions to bin folder
+- added: README for DotNetVersions
+- updated: winsw (to v2.9.0 for .NET 4.6.1)
+- fixed: example code
+- added: README for winsw
+- added: this CHANGELOG file
 
 ## 1.0.0-beta.1
 fork from https://github.com/coreybutler/node-windows

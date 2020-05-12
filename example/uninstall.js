@@ -14,4 +14,4 @@ svc.on('uninstall',function(){
 });
 
 // Uninstall the service.
-svc.uninstall();
+svc.uninstall("c:\\temp");
