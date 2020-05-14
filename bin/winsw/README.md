@@ -4,7 +4,7 @@
 This project uses WinSW to create services.  
 It simply generates an XML file with all service parameters and a renamed copy of winsw.exe.  
 The .xml & .exe files are should always stay together in the same folder.  
-Those files are copied to the daemon folder created by node-windows.  
+Those files are copied to the daemon folder created by node-windows.
 
 More details here: https://github.com/winsw/winsw/blob/master/doc/installation.md
 
