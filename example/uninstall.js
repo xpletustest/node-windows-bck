@@ -2,8 +2,9 @@ var Service = require('../').Service;
 
 // Create a new service object
 var svc = new Service({
-    id: "SomeThingCompletelyDifferent",
     name:'Hello World',
+    exeName: 'SomeThing',
+    id: "SomeThingCompletelyDifferent",
     script: require('path').join(__dirname,'helloworld.js')
 });
 
