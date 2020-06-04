@@ -1,3 +1,7 @@
+## 1.0.9
+- added: support for specifying executable name separately from service id
+- updated: examples
+
 ## 1.0.8
 - fixed: logOnAs was not initialized from config object
 - updated: examples
