@@ -1,3 +1,6 @@
+## 1.0.10
+- rebased on 1.0.0-beta.5
+
 ## 1.0.9
 - added: support for specifying executable name separately from service id
 - updated: examples
