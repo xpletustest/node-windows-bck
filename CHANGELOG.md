@@ -1,8 +1,11 @@
-## 1.0.11
+## 1.0.12
 - updated: WinSW to version 2.10.3.
 - added: rmRetry function to keep trying to remove a file for a specified amount of time
-- chaned: keep trying to remove .exe & .exe.config files for 2 minutes after uninstalling service 
+- changed: keep trying to remove .exe & .exe.config files for 2 minutes after uninstalling service 
           (Windows keeps them locked for some time)
+
+## 1.0.11
+(erroneous tag)
 
 ## 1.0.10
 - rebased on 1.0.0-beta.5
