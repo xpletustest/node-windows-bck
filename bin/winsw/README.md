@@ -16,7 +16,7 @@ https://github.com/winsw/winsw
 ## Releases
 The latest releases of WinSW can be found here: https://github.com/winsw/winsw/releases
 
-For our purposes we now use the NET461 version of WinSW v2.9.0.
+For our purposes we now use the NET461 version of WinSW v2.10.3.
 
 ## Installed .NET versions
 You can run `./bin/DotNetVersions/DotNetVersions.exe` to list the .NET versions installed on your machine.
