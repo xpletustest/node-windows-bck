@@ -1,3 +1,7 @@
+## 1.0.13
+- updated: WinSW to version 2.11.0.
+- changed: now also using rmRetry to remove .xml & .log files
+
 ## 1.0.12
 - updated: WinSW to version 2.10.3.
 - added: rmRetry function to keep trying to remove a file for a specified amount of time
