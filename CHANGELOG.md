@@ -1,3 +1,8 @@
+## 1.0.14
+- updated: WinSW to version 2.12.0
+- changed: when no password is specified, the <serviceaccount> element will not contain a <password> child
+- changed: after installation with a password, the xml is written again without the password
+
 ## 1.0.13
 - updated: WinSW to version 2.11.0.
 - changed: now also using rmRetry to remove .xml & .log files
